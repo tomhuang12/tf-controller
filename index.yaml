@@ -3,12 +3,12 @@ entries:
   tf-controller:
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2022-02-08T16:27:17.428874802Z"
+    created: "2022-02-08T17:04:17.415978675Z"
     description: A Helm chart for TF-controller
-    digest: d5d5c3d478393f1db3428a2fb68adc9302700779d534d901275d40499c4adcca
+    digest: 96b6cb67feb22630e5e850f2cf1972cba6774e72736f10cd037d8e5e99de24cd
     name: tf-controller
     type: application
     urls:
-    - https://github.com/tomhuang12/tf-controller/releases/download/tf-controller-0.0.5/tf-controller-0.0.5.tgz
+    - https://tomhuang12.github.io/tf-controller/tf-controller-0.0.5.tgz
     version: 0.0.5
-generated: "2022-02-08T16:27:17.428884602Z"
+generated: "2022-02-08T17:04:17.41526437Z"
