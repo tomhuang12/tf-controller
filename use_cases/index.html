@@ -8,19 +8,19 @@
       
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.10">
     
     
       
-        <title>TF-controller</title>
+        <title>Use Cases - TF-controller</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.d6be258b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.d6be258b.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
@@ -34,7 +34,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview" class="md-skip">
+        <a href="#use-cases" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +76,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="TF-controller" class="md-header__button md-logo" aria-label="TF-controller" data-md-component="logo">
+    <a href=".." title="TF-controller" class="md-header__button md-logo" aria-label="TF-controller" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Use Cases
             
           </span>
         </div>
@@ -196,7 +196,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="TF-controller" class="md-nav__button md-logo" aria-label="TF-controller" data-md-component="logo">
+    <a href=".." title="TF-controller" class="md-nav__button md-logo" aria-label="TF-controller" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -225,6 +225,36 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting_started/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -237,12 +267,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Overview
+          Use Cases
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
-        Overview
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Use Cases
       </a>
       
         
@@ -261,15 +291,70 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
-    Features
+  <a href="#the-manual-mode-plan-and-manual-apply" class="md-nav__link">
+    The manual mode: plan and manual apply
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#dependencies" class="md-nav__link">
-    Dependencies
+  <a href="#the-drift-detection-only-mode-plan-and-apply-will-be-skipped" class="md-nav__link">
+    The drift detection only mode: plan and apply will be skipped
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disable-drift-detection" class="md-nav__link">
+    Disable Drift Detection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-with-aws-eks-irsa" class="md-nav__link">
+    Use with AWS EKS IRSA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-terraform-variables" class="md-nav__link">
+    Setting Terraform Variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-terraform-state" class="md-nav__link">
+    Managing Terraform State
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing Terraform State">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backup-the-statefile" class="md-nav__link">
+    Backup the statefile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restore-the-statefile" class="md-nav__link">
+    Restore the statefile
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#health-checks" class="md-nav__link">
+    Health Checks
   </a>
   
 </li>
@@ -278,36 +363,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="getting_started/" class="md-nav__link">
-        Getting Started
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="use_cases/" class="md-nav__link">
-        Use Cases
-      </a>
     </li>
   
 
@@ -346,7 +401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="References/terraform/" class="md-nav__link">
+      <a href="../References/terraform/" class="md-nav__link">
         Terraform
       </a>
     </li>
@@ -387,15 +442,70 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
-    Features
+  <a href="#the-manual-mode-plan-and-manual-apply" class="md-nav__link">
+    The manual mode: plan and manual apply
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#dependencies" class="md-nav__link">
-    Dependencies
+  <a href="#the-drift-detection-only-mode-plan-and-apply-will-be-skipped" class="md-nav__link">
+    The drift detection only mode: plan and apply will be skipped
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disable-drift-detection" class="md-nav__link">
+    Disable Drift Detection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-with-aws-eks-irsa" class="md-nav__link">
+    Use with AWS EKS IRSA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-terraform-variables" class="md-nav__link">
+    Setting Terraform Variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-terraform-state" class="md-nav__link">
+    Managing Terraform State
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing Terraform State">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backup-the-statefile" class="md-nav__link">
+    Backup the statefile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restore-the-statefile" class="md-nav__link">
+    Restore the statefile
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#health-checks" class="md-nav__link">
+    Health Checks
   </a>
   
 </li>
@@ -412,73 +522,234 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/weaveworks/tf-controller/edit/master/docs/index.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/weaveworks/tf-controller/edit/master/docs/use_cases.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
-<h1 id="overview">Overview</h1>
-<p>TF-controller is an experimental controller for <a href="https://fluxcd.io">Flux</a> to reconcile Terraform resources
-in the GitOps way.
-With the power of Flux together with Terraform, TF-controller allows you to GitOps-ify infrastructure,
-and application resources, in the Kubernetes and Terraform universe, at your own pace.</p>
-<p>"At your own pace" means you don't need to GitOps-ify everything at once.</p>
-<p>TF-controller offers many GitOps models:<br />
-  1. <strong>Full GitOps Automation Model:</strong> GitOps your Terraform resources from the provision steps to the enforcement steps, like a whole EKS cluster.<br />
-  2. <strong>Hybrid GitOps Automation Model:</strong> GitOps parts of your existing infrastructure resources. For example, you have an existing EKS cluster.
-     You can choose to GitOps only its nodegroup, or its security group.<br />
-  3. <strong>State Enforcement Model:</strong> You have a TFSTATE file, and you'd like to use GitOps enforce it, without changing anything else.<br />
-  4. <strong>Drift Detection Model:</strong> You have a TFSTATE file, and you'd like to use GitOps just for drift detection, so you can decide to do things later when a drift occurs.  </p>
-<p>To get started, follow the <a href="/getting_started">getting started</a> guide.</p>
-<h2 id="features">Features</h2>
-<ul>
-<li><strong>Full GitOps Automation for Terraform</strong>: With setting <code>.spec.approvePlan=auto</code>, it allows a <code>Terraform</code> object
-    to be reconciled and act as the representation of your Terraform resources. The TF-controller uses the spec of
-    the <code>Terraform</code> object to perform <code>plan</code>, <code>apply</code> its associated Terraform resources. It then stores
-    the <code>TFSTATE</code> of the applied resources as a <code>Secret</code> inside the Kubernetes cluster. After <code>.spec.interval</code> passes,
-    the controller performs drift detection to check if there is a drift occurred between your live system,
-    and your Terraform resources. If a drift occurs, the plan to fix that drift will be generated and applied automatically.
-    <em>This feature is available since v0.3.0.</em></li>
-<li><strong>Drift detection</strong>: This feature is a part of the GitOps automation feature. The controller detects and fixes drift
-    for your infrastructures, based on the Terraform resources and their <code>TFSTATE</code>. <em>This feature is available since v0.5.0.</em><ul>
-<li>Drift detection is enabled by default. You can use the field <code>.spec.disableDriftDetection</code> to disable this behaviour.
-  <em>This feature is available since v0.7.0.</em></li>
-<li>The Drift detection only mode, without plan or apply steps, allows you to perform read-only drift detection.
-  <em>This feature is available since v0.8.0.</em></li>
-</ul>
-</li>
-<li><strong>Plan and Manual Approve</strong>: This feature allows you to separate the <code>plan</code>, out of the <code>apply</code> step, just like
-    the Terraform workflow you are familiar with. A good thing about this is that it is done in a GitOps way. When a plan
-    is generated, the controller shows you a message like <strong>'set approvePlan: "plan-main-123" to apply this plan.'</strong>.
-    You make change to the field <code>.spec.approvePlan</code>, commit and push to tell the TF-controller to apply the plan for you.
-    With this GitOps workflow, you can optionally create and push this change to a new branch for your team member to
-    review and approve too. <em>This feature is available since v0.6.0.</em></li>
-</ul>
-<h2 id="dependencies">Dependencies</h2>
-<table>
-<thead>
-<tr>
-<th align="center">Version</th>
-<th align="center">Terraform</th>
-<th align="center">Source Controller</th>
-<th align="center">Flux v2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><strong>v0.8.0</strong></td>
-<td align="center">v1.1.4</td>
-<td align="center">v0.20.1</td>
-<td align="center">v0.25.x</td>
-</tr>
-<tr>
-<td align="center">v0.7.0</td>
-<td align="center">v1.1.3</td>
-<td align="center">v0.20.1</td>
-<td align="center">v0.25.x</td>
-</tr>
-</tbody>
-</table>
+<h1 id="use-cases">Use Cases</h1>
+<h2 id="the-manual-mode-plan-and-manual-apply">The manual mode: plan and manual apply</h2>
+<p>For the plan &amp; manual approval workflow, please either set <code>.spec.approvePlan</code> to be the blank value, or omit the field.</p>
+<pre><code class="language-diff">apiVersion: infra.contrib.fluxcd.io/v1alpha1
+kind: Terraform
+metadata:
+  name: helloworld
+  namespace: flux-system
+spec:
++ approvePlan: &quot;&quot; # or you can omit this field
+- approvePlan: &quot;auto&quot;
+  path: ./
+  sourceRef:
+    kind: GitRepository
+    name: helloworld
+    namespace: flux-system
+</code></pre>
+<p>Then the controller will tell you how to use field <code>.spec.approvePlan</code> to approve the plan.
+After making change and push, it will apply the plan to create real resources.</p>
+<pre><code class="language-diff">apiVersion: infra.contrib.fluxcd.io/v1alpha1
+kind: Terraform
+metadata:
+  name: hello-world
+  namespace: flux-system
+spec:
++ approvePlan: &quot;plan-main-b8e362c206&quot; # first 8 digits of a commit hash is enough
+- approvePlan: &quot;&quot;
+  path: ./
+  sourceRef:
+    kind: GitRepository
+    name: helloworld
+    namespace: flux-system
+</code></pre>
+<h2 id="the-drift-detection-only-mode-plan-and-apply-will-be-skipped">The drift detection only mode: plan and apply will be skipped</h2>
+<p>To only run drift detection, skipping the plan and apply stages, set <code>.spec.approvePlan</code> to <code>disable</code>.</p>
+<pre><code class="language-yaml">apiVersion: infra.contrib.fluxcd.io/v1alpha1
+kind: Terraform
+metadata:
+  name: hello-world
+  namespace: flux-system
+spec:
+  approvePlan: &quot;disable&quot;
+  path: ./
+  sourceRef:
+    kind: GitRepository
+    name: helloworld
+    namespace: flux-system
+</code></pre>
+<h2 id="disable-drift-detection">Disable Drift Detection</h2>
+<p>Drift detection is enabled by default. Use the <code>.spec.disableDriftDetection</code> field to disable:</p>
+<pre><code class="language-yaml">apiVersion: infra.contrib.fluxcd.io/v1alpha1
+kind: Terraform
+metadata:
+  name: helloworld
+  namespace: flux-system
+spec:
+  approvePlan: &quot;auto&quot;
+  disableDriftDetection: true
+  path: ./
+  sourceRef:
+    kind: GitRepository
+    name: helloworld
+    namespace: flux-system
+</code></pre>
+<h2 id="use-with-aws-eks-irsa">Use with AWS EKS IRSA</h2>
+<p>AWS Elastic Kubernetes Service (EKS) offers IAM Roles for Service Accounts (IRSA) as a mechanism by which to provide
+credentials for the Terraform controller.</p>
+<p>You can use <code>eksctl</code> to associate an OIDC provider with your EKS cluster, for example:</p>
+<pre><code class="language-shell">eksctl utils associate-iam-oidc-provider --cluster CLUSTER_NAME --approve
+</code></pre>
+<p>Then follow the instructions <a href="https://docs.aws.amazon.com/eks/latest/userguide/create-service-account-iam-policy-and-role.html">here</a>
+to add a trust policy to the IAM role which grants the necessary permissions for Terraform.
+Please note that if you have installed the controller following the README, then the <code>namespace:serviceaccountname</code>
+will be <code>flux-system:tf-controller</code>. You'll obtain a Role ARN to use in the next step.</p>
+<p>Finally, annotate the ServiceAccount with the obtained Role ARN in your cluster:</p>
+<pre><code class="language-shell">kubectl annotate -n flux-system serviceaccount tf-controller eks.amazon.com/role-arn=ROLE_ARN
+</code></pre>
+<h2 id="setting-terraform-variables">Setting Terraform Variables</h2>
+<p><strong>This is a breaking change of the <code>v1alpha1</code> API.</strong>
+Users who are upgrading from TF-controller &lt;= 0.7.0 require updating <code>varsFrom</code>,
+from a single object:</p>
+<pre><code class="language-yaml">  varsFrom:
+    kind: ConfigMap
+    name: cluster-config
+</code></pre>
+<p>to be an array of object, like this:</p>
+<pre><code class="language-yaml">  varsFrom:
+  - kind: ConfigMap
+    name: cluster-config
+</code></pre>
+<p>You can pass variables to Terraform using the <code>vars</code> and <code>varsFrom</code> fields.</p>
+<p>Inline variables can be set using <code>vars</code>. The <code>varsFrom</code> field accepts a list of ConfigMaps / Secrets.
+You may use the <code>varsKeys</code> property of <code>varsFrom</code> to select specific keys from the input or omit this field
+to select all keys from the input source.</p>
+<p>Note that in the case of the same variable key being passed multiple times, the controller will use
+the lattermost instance of the key passed to <code>varsFrom</code>.</p>
+<pre><code class="language-yaml">apiVersion: infra.contrib.fluxcd.io/v1alpha1
+kind: Terraform
+metadata:
+  name: helloworld
+  namespace: flux-system
+spec:
+  approvePlan: &quot;auto&quot;
+  path: ./
+  sourceRef:
+    kind: GitRepository
+    name: helloworld
+    namespace: flux-system
+  vars:
+  - name: region
+    value: us-east-1
+  - name: env
+    value: dev
+  - name: instanceType
+    value: t3-small
+  varsFrom:
+  - kind: ConfigMap
+    name: cluster-config
+    varsKeys:
+    - nodeCount
+    - instanceType
+  - kind: Secret
+    name: cluster-creds
+</code></pre>
+<p>The <code>vars</code> field supports HCL string, number, bool, object and list types. For example, the following variable can be populated using the accompanying Terraform spec:</p>
+<pre><code class="language-hcl">variable &quot;cluster_spec&quot; {
+  type = object({
+      region = string
+      env = string
+      node_count = number
+      public = bool
+  })
+}
+</code></pre>
+<pre><code class="language-yaml">apiVersion: infra.contrib.fluxcd.io/v1alpha1
+kind: Terraform
+metadata:
+  name: helloworld
+  namespace: flux-system
+spec:
+  approvePlan: &quot;auto&quot;
+  path: ./
+  sourceRef:
+    kind: GitRepository
+    name: helloworld
+    namespace: flux-system
+  vars:
+  - name: cluster_spec
+    value:
+      region: us-east-1
+      env: dev
+      node_count: 10
+      public: false
+</code></pre>
+<h2 id="managing-terraform-state">Managing Terraform State</h2>
+<p>By default, <code>tf-controller</code> will use the <a href="https://www.terraform.io/language/settings/backends/kubernetes">Kubernetes backend</a> to store the Terraform statefile in cluster.</p>
+<p>The statefile is stored in a secret named: <code>tfstate-default-${secretSuffix}</code>. The default <code>suffix</code> will be the name of the Terraform resource, however you may override this setting using <code>.spec.backendConfig.secretSuffix</code>.</p>
+<p>You can disable the backend</p>
+<h3 id="backup-the-statefile">Backup the statefile</h3>
+<p>For the following <code>terraform</code> resources:</p>
+<pre><code class="language-bash">$ kubectl get terraform
+
+NAME       READY     STATUS         AGE
+my-stack   Unknown   Initializing   28s
+</code></pre>
+<p>We can export the state like this:</p>
+<pre><code class="language-bash">kubectl get secret tfstate-default-my-stack -ojsonpath='{.data.tfstate}' | base64 -d | gzip -d &gt; terraform.tfstate
+</code></pre>
+<h3 id="restore-the-statefile">Restore the statefile</h3>
+<p>To restore the statefile or import an existing statefile we can use the following operation:</p>
+<pre><code class="language-bash">gzip terraform.tfstate
+
+NAME=my-stack
+
+kubectl create secret \
+  generic tfstate-default-${NAME} \
+  --from-file=tfstate=terraform.tfstate.gz \
+  --dry-run=client -o=yaml \
+  | yq e '.metadata.annotations[&quot;encoding&quot;]=&quot;gzip&quot;' - &gt; tfstate-default-${NAME}.yaml
+
+kubectl apply -f tfstate-default-${NAME}.yaml
+</code></pre>
+<h2 id="health-checks">Health Checks</h2>
+<p>For some resources, it may be useful to perform health checks on them to verify that they are ready to accept connection before the terraform goes into <code>Ready</code> state:</p>
+<pre><code># main.tf
+
+output &quot;rdsAddress&quot; {
+  value = &quot;mydb.xyz.us-east-1.rds.amazonaws.com&quot;
+}
+
+output &quot;rdsPort&quot; {
+  value = &quot;3306&quot;
+}
+
+output &quot;myappURL&quot; {
+  value = &quot;https://example.com/&quot;
+}
+</code></pre>
+<pre><code class="language-yaml">apiVersion: infra.contrib.fluxcd.io/v1alpha1
+kind: Terraform
+metadata:
+  name: helloworld
+  namespace: flux-system
+spec:
+  approvePlan: &quot;auto&quot;
+  path: ./
+  sourceRef:
+    kind: GitRepository
+    name: helloworld
+    namespace: flux-system
+  healthChecks:
+    - name: rds
+      type: tcp
+      address: &quot;{{.rdsAddress}}:{{.rdsPort}}&quot; # uses standard Go package template format to parse outputs to url
+      timeout: 10s # optional, defaults to 20s
+    - name: myapp
+      type: http
+      url: &quot;{{.myappURL}}&quot;
+      timeout: 5s
+    - name: url_not_from_output
+      type: http
+      url: &quot;https://example.org&quot;
+</code></pre>
 
               
             </article>
@@ -491,15 +762,30 @@ and application resources, in the Kubernetes and Terraform universe, at your own
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
+        
+        <a href="../getting_started/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Getting Started" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Getting Started
+            </div>
+          </div>
+        </a>
+      
       
         
-        <a href="getting_started/" class="md-footer__link md-footer__link--next" aria-label="Next: Getting Started" rel="next">
+        <a href="../References/terraform/" class="md-footer__link md-footer__link--next" aria-label="Next: Terraform" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Getting Started
+              Terraform
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -529,10 +815,10 @@ and application resources, in the Kubernetes and Terraform universe, at your own
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.092fa1f6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.092fa1f6.min.js"}</script>
     
     
-      <script src="assets/javascripts/bundle.e3b2bf44.min.js"></script>
+      <script src="../assets/javascripts/bundle.e3b2bf44.min.js"></script>
       
     
   </body>
